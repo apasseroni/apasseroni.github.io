@@ -10,4 +10,4 @@
 
     The idea is to swipe up/down/left/right to slide the numbered tiles around on the board, combining factors of three to create higher numbered tiles. The higher the number a tile has, the more points it's worth! Each time you make a move a new tile is added to the board, and the game ends when the board is full and you can't make any more moves.
 
-    I recreated the game in the <mark>Unity3D</mark> as a fun project that exhibits some of my knowledge of the engine. If you want to try it out, you can play it [on the web](threes) or [download](download/ThreesClone.apk) it and install it on your <mark>Android</mark> device. If you like it, I highly recommend you try the original!
+    I recreated the game in the <mark>Unity</mark> as a fun project that exhibits some of my knowledge of the engine. If you want to try it out, you can play it [on the web](threes) or you can [download](download/ThreesClone.apk) it and install it on your <mark>Android</mark> device. If you like it, I highly recommend you try the original!

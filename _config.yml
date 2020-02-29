@@ -15,21 +15,21 @@ github_username:  apasseroni
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-#instagram_username: jekyll
+# instagram_username: jekyll
 linkedin_username: alex-passeroni-02b5038a
 # pinterest_username: jekyll
-#youtube_username: jekyll
+# youtube_username: jekyll
 # googleplus_username: +jekyll
 
 # About Section
 about_title: About Me
 about_profile_image: images/me.png
 about_content: | # this will include new lines to allow paragraphs
-  I'm an experienced engineer who has been through all phases of the software development lifecycle, and I am used to being relied upon to come up with solutions to difficult problems when Google or Stack Overflow don't have an answer.
+  I'm an experienced software engineer who has been through all phases of the development lifecycle. I'm a self-sufficient problem solver who's used to being relied upon to come up with solutions to the types of problems that can't be looked up on Stack Overflow.
 
-  In my professional experience I've used mostly <mark>C/C++</mark> and <mark>Java</mark>, but I'm also well-versed in <mark>C#</mark>. While I'm most comfortable working in any of those three languages, I've used a variety of others like <mark>HLSL/Cg</mark> and <mark>Lua</mark> in lesser capacities and I'm always open to opportunities to add new languages and tools to my skillset!
+  In my professional experience I've used mostly <mark>C/C++</mark> and <mark>Java</mark>, but I'm also well-versed in <mark>C#</mark> as I use it quite a bit for personal projects. While those are the languages I'm most comfortable working with, I've used a variety of others like <mark>Cg/HLSL</mark>, <mark>Lua</mark>, <mark>HTML</mark>, <mark>CSS</mark>, <mark>JavaScript</mark>, and <mark>Python</mark>. I'm always open to opportunities to add new languages and tools to my skillset!
 
-  In my free time I enjoy applying my skills to more creative projects like video game development. My tool of choice for these projects is the <mark>Unity3D</mark> engine, which I was first introduced to almost a decade ago and has been a great tool for me to hone my skills in game development and programming in general.
+  Outside of work I enjoy applying my skills to more creative projects like video game development. My tool of choice for these projects is the <mark>Unity</mark> engine, which I have been using for many years now and has been a great tool for me to sharpen my skills in game development and programming in general.
 
 # Experience Section
 experience_title: Experience
@@ -54,8 +54,6 @@ footer_show_references: false
 
 # Build settings
 remote_theme: sproogen/modern-resume-theme
-#remote_theme: sproogen/resume-theme
-#theme: modern-resume-theme
 
 sass:
   sass_dir: _sass
