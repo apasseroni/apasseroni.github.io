@@ -1,0 +1,79 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import 'modern-resume-theme';
+
+.about-intro {
+    text-align: center;
+    font-size: 2em;
+}
+
+.projects-container a {
+//    color: #fffb7d;	// yellow
+    color: #ff5f5f;	// red
+//    color: #64B0FF;	// blue
+}
+
+.experience-container ul li p {
+    font-size: 1.0em;
+    margin: 0.75em 0 0.25em
+}
+
+.experience-container ul li ul {
+    font-size: 1em;
+}
+
+.experience-container ul li ul li {
+    font-size: 1em;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.education-container .col-md-3 {
+    width: 28%;
+}
+
+.education-container .col-md-9 {
+    width: 72%;
+}
+
+/*
+.proj-banner-img {
+    width: 364px;
+    height: 84px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 20px;
+    display: inline;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat, no-repeat;
+}
+*/
+
+.proj-banner-img {
+    width: 364px;
+    height: 84px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat, no-repeat;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%)
+}
+
+.proj-img-left {
+    width: 213px;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat, no-repeat;
+}

@@ -1,0 +1,11 @@
+- layout: left
+  name: University of Rhode Island
+  dates: 2010 - 2014
+  qualification: B.S. Computer Science
+#  quote: >
+  description: | # this will include new lines to allow paragraphs
+    The time I spent at URI was very valuable to me as it provided me with the foundation that's allowed me to be as successful as I have been to this point in my career.
+
+    It was there that I learned the fundamentals of programming in object-oriented languages like <mark>Java</mark>, <mark>C#</mark>, and <mark>C++</mark>, how to logically break down problems and solve them algorithmically, and how to apply my theoretical knowledge as a computer scientist to the real world problems I am faced with as a software engineer.
+
+    Most importantly I learned quite a bit about myself. I figured out the ways in which I learn best, how I work most effectively, and what it takes to be successful in a challenging and competitive field.

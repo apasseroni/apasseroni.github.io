@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+
+{%- include head.html -%}
+
+<body class="dark">
+
+    <main class="page-content" aria=label="Content">
+	<link rel="shortcut icon" href="../threes-clone/TemplateData/favicon.ico">
+        <link rel="stylesheet" href="../threes-clone/TemplateData/style.css">
+        <script src="../threes-clone/TemplateData/UnityProgress.js"></script>
+        <script src="../threes-clone/Build/UnityLoader.js"></script>
+        <script>
+	    var unityInstance = UnityLoader.instantiate("unityContainer", "../threes-clone/Build/WebGL.json", {onProgress: UnityProgress});
+        </script>
+  
+<!--	<div style="height:1060px; width:540px; margin:auto">  -->
+	    <div class="webgl-content">
+		<div id="unityContainer" style="height:80vh; width:45vh;"></div>
+                <div class="footer">
+		    <div class="webgl-logo"></div>
+                </div>
+	    </div>
+<!--	</div>	-->
+    </main>
+</body>
+</html>

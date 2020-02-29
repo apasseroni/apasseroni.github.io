@@ -1,0 +1,65 @@
+# Site
+darkmode: true
+repository: apasseroni/apasseroni.github.io
+favicon: images/favicon.ico
+
+# Personal info
+name: Alex Passeroni
+title: Senior Software Engineer
+email: apasseroni1992@gmail.com
+website: alexpasseroni.com
+
+# Social links
+#twitter_username: jekyll
+github_username:  apasseroni
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: alex-passeroni-02b5038a
+# pinterest_username: jekyll
+#youtube_username: jekyll
+# googleplus_username: +jekyll
+
+# About Section
+about_title: About Me
+about_profile_image: images/me.png
+about_content: | # this will include new lines to allow paragraphs
+  I'm an experienced engineer who has been through all phases of the software development lifecycle, and I am used to being relied upon to come up with solutions to difficult problems when Google or Stack Overflow don't have an answer.
+
+  In my professional experience I've used mostly <mark>C/C++</mark> and <mark>Java</mark>, but I'm also well-versed in <mark>C#</mark>. While I'm most comfortable working in any of those three languages, I've used a variety of others like <mark>HLSL/Cg</mark> and <mark>Lua</mark> in lesser capacities and I'm always open to opportunities to add new languages and tools to my skillset!
+
+  In my free time I enjoy applying my skills to more creative projects like video game development. My tool of choice for these projects is the <mark>Unity3D</mark> engine, which I was first introduced to almost a decade ago and has been a great tool for me to hone my skills in game development and programming in general.
+
+# Experience Section
+experience_title: Experience
+
+# Projects Section
+projects_title: Projects
+
+# Education Section
+educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+#more_content: | # this will include new lines to allow paragraphs
+#  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#   - Rock climbing
+#   - Gaming
+#   - Knitting
+#   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+# Footer
+footer_show_references: false
+
+# Build settings
+remote_theme: sproogen/modern-resume-theme
+#remote_theme: sproogen/resume-theme
+#theme: modern-resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
