@@ -1,8 +1,5 @@
 <div class="row clearfix layout layout-left">
   <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-    {%- if include.item.screenshot -%}
-      <span class="proj-img-left" style="background-image: url({{ include.item.screenshot }})"></span>
-    {%- endif -%}
     {%- if include.item.name -%}<h4>{{ include.item.name }}</h4>{%- endif -%}
     {%- if include.item.company -%}<h4>{{ include.item.company }}</h4>{%- endif -%}
     {%- if include.item.link -%}
@@ -21,6 +18,11 @@
           <i class="fa fa-github" title="{{ include.item.name }} Github link"></i>
         </a>
       </p>
+    {%- endif -%}
+    {%- if include.item.screenshot -%}
+      <div class="proj-img-left-container">
+	<img class="proj-img-left": src="images/{{ include.item.screenshot }}"></img>
+      </div>
     {%- endif -%}
   </div>
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">

@@ -2,14 +2,14 @@
   company: Raytheon
   link: https://www.raytheon.com/
   job_title: Senior Software Engineer
-  dates: 2014 - Present
+  dates: 2014 - 2022
 #  quote: >
   description: | # this will include new lines to allow paragraphs
-    During my time working at Raytheon I've been designing, developing, testing and maintaining the software that powers the U.S. Navy's Zumwalt class destroyers, some of the most technologically advanced warships ever built.
+    During my time working at Raytheon I've been designing, developing, testing and maintaining the software that powers the U.S. Navy's Zumwalt class destroyers, some of the most technologically advanced warships built to date.
 
     I've worked on two teams during my time on the Zumwalt program:
     <p style="margin: 0 0;"><b>Human Computer Interaction (HCI)</b></p>
-    <p style="margin: 0 0; font-size: 1.2em; margin: 0 0;">June 2014 - May 2018</p>
+    <p style="margin: 0 0; font-size: 1.2em; margin: 0 0;">2014 - 2018</p>
 
     - Develop user interfaces to support crew operation of all aspects of the ship
     - Collaborate with engineers across teams to design and implement interfaces between software elements
@@ -17,7 +17,7 @@
     - Mentor new team members to bring them up to speed and enable them to contribute as quickly as possible
 
     <p style="margin: 0 0;"><b>External Communications (ExComms)</b></p>
-    <p style="margin: 0 0; font-size: 1.2em; margin: 0 0;">May 2018 - Present</p>
+    <p style="margin: 0 0; font-size: 1.2em; margin: 0 0;">2018 - 2022</p>
 
     - Update and maintain software used to dynamically control communications equipment (radios, antennas, etc.) for the many types of communication circuits that the ship requires
     - Update codebase to add support for RHEL 7 as a new target environment, in addition to RHEL 5 and LynxOS

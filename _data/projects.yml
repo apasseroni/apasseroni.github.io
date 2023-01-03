@@ -1,13 +1,25 @@
 - layout: left
-#  name: Threes! (clone)
-  banner: /images/threes-banner2.png
-  screenshot: /images/threes-screencap.png
+#  name: Threes!
+#  banner: /images/threes-banner.png
+  screenshot: threes-banner3.png
 #  link: 
 #  github: 
 #  quote: >
   description: | # this will include new lines to allow paragraphs
-    \"Threes!\" is a really fun puzzle game for mobile created by [Asher Vollmer](asherv.com/threes). It's a very well designed game with simple rules that make it easy to pick up and begin playing, but it also has a deceptively high skill ceiling.
+    *Threes!* is an awesome puzzle game for mobile created by [Asher Vollmer](asherv.com/threes). It's a wonderfully designed game with simple rules that make it easy to pick up and start playing but also has a surprising amount of depth.
 
-    The idea is to swipe up/down/left/right to slide the numbered tiles around on the board, combining factors of three to create higher numbered tiles. The higher the number a tile has, the more points it's worth! Each time you make a move a new tile is added to the board, and the game ends when the board is full and you can't make any more moves.
+    I recreated the game in <mark>Unity</mark> as an educational project. If you want to try it out, you can play it [in your browser](threes) or [download](download/ThreesClone.apk) it and install it on your <mark>Android</mark> device.
 
-    I recreated the game in the <mark>Unity</mark> as a fun project that exhibits some of my knowledge of the engine. If you want to try it out, you can play it [on the web](threes) or you can [download](download/ThreesClone.apk) it and install it on your <mark>Android</mark> device. If you like it, I highly recommend you try the original!
+- layout: left
+#  name: Asteroid Miner
+#  banner: /images/threes-banner.png
+  screenshot: asteroidminer-cover.png
+#  link: https://glhfstudios.itch.io/asteroid-miner
+#  github:
+#  quote: >
+  description: | # this will include new lines to allow paragraphs
+    *Asteroid Miner* is a fresh take on the Atari classic game *Asteroids* where your objective is to mine valuable minerals from asteroids rather than just destroying them. You'll navigate your ship through an area of space that is densely populated with asteroids and deploy astronaut miners to gather minerals from them. Just make sure you come back for them before they run out of oxygen!
+    
+    The game was created in <mark>Unity</mark> during a week-long community game jam dubbed \"Clone The Game Jam\" where everybody started out with the same base project, a simple *Asteroids* clone in this case, and had to put their own spin on it to make a new game. *Asteroid Miner* is what I ended up with at the end of the week!
+    
+    You can play it [in your browser](asteroidminer) or [download it](https://glhfstudios.itch.io/asteroid-miner) to play on your <mark>Windows</mark> PC.
