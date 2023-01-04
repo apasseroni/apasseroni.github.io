@@ -1,5 +1,6 @@
 - layout: left
-  name: University of Rhode Island
+  image: university-of-rhode-island-logo.png
+#  name: University of Rhode Island
   dates: 2010 - 2014
   qualification: B.S. Computer Science
 #  quote: >

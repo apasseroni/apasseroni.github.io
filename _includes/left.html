@@ -1,5 +1,10 @@
 <div class="row clearfix layout layout-left">
   <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+    {%- if include.item.image -%}
+      <div class="proj-img-left-container">
+	<img class="proj-img-left": src="images/{{ include.item.image }}"></img>
+      </div>
+    {%- endif -%}
     {%- if include.item.name -%}<h4>{{ include.item.name }}</h4>{%- endif -%}
     {%- if include.item.company -%}<h4>{{ include.item.company }}</h4>{%- endif -%}
     {%- if include.item.link -%}
@@ -19,11 +24,13 @@
         </a>
       </p>
     {%- endif -%}
-    {%- if include.item.screenshot -%}
+<!--
+    {%- if include.item.image -%}
       <div class="proj-img-left-container">
-	<img class="proj-img-left": src="images/{{ include.item.screenshot }}"></img>
+	<img class="proj-img-left": src="images/{{ include.item.image }}"></img>
       </div>
     {%- endif -%}
+-->
   </div>
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
     {%- if include.item.quote -%}

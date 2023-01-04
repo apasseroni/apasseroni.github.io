@@ -1,5 +1,6 @@
 - layout: left
-  company: Raytheon
+#  company: Raytheon
+  image: raytheon-technologies-logo.png
   link: https://www.raytheon.com/
   job_title: Senior Software Engineer
   dates: 2014 - 2022

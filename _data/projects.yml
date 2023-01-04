@@ -1,7 +1,7 @@
 - layout: left
 #  name: Threes!
 #  banner: /images/threes-banner.png
-  screenshot: threes-banner3.png
+  image: threes-banner3.png
 #  link: 
 #  github: 
 #  quote: >
@@ -13,7 +13,7 @@
 - layout: left
 #  name: Asteroid Miner
 #  banner: /images/threes-banner.png
-  screenshot: asteroidminer-cover.png
+  image: asteroidminer-cover.png
 #  link: https://glhfstudios.itch.io/asteroid-miner
 #  github:
 #  quote: >
