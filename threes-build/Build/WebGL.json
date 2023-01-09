@@ -1,7 +1,7 @@
 {
-"companyName": "DefaultCompany",
+"companyName": "GLHF Studios",
 "productName": "Threes Clone",
-"productVersion": "0.1",
+"productVersion": "1.0.0",
 "dataUrl": "WebGL.data.unityweb",
 "wasmCodeUrl": "WebGL.wasm.code.unityweb",
 "wasmFrameworkUrl": "WebGL.wasm.framework.unityweb",
