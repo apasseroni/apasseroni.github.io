@@ -156,4 +156,29 @@
 			}
 		});
 
+	// Magnific Popup
+		$(document).ready(function() {
+		    $('.open-gallery').each(function() {
+		        var galleryID = $(this).data('gallery');
+		        var galleryItems = $(galleryID).find('a').map(function() {
+		        	var type = $(this).data('type') || 'image'; // Default to image if type is not specified
+		            return {
+		                src: $(this).attr('href'),
+		                type: type,
+		                title: $(this).attr('title') || ''
+		            };
+		        }).get();
+
+		        $(this).magnificPopup({
+		            items: galleryItems,
+		            type: 'image',
+		            gallery: {
+		                enabled: true
+		            },
+		            image: {
+		                titleSrc: 'title'
+		            }
+		        });
+		    });
+		});
 })(jQuery);
