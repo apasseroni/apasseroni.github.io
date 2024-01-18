@@ -113,7 +113,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px #e4e4e4;
+		border-bottom: solid 1px #252422;
 		color: inherit;
 		text-decoration: none;
 		font-weight: 600;
@@ -2726,6 +2726,7 @@ input, select, textarea {
 			.features article .image img {
 				display: block;
 				width: 100%;
+				padding-bottom: 0.5em;
 			}
 
 		.features article .inner {
