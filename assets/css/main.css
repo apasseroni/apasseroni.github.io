@@ -2393,15 +2393,15 @@ input, select, textarea {
 		margin-top: 1.5em;
 	}
 
-		ul.feature-icons li {
+		ul.feature-icons > li {
 			text-decoration: none;
 			display: inline-block;
 			margin: 0 0 1.6875em 0;
 			padding: 0.35em 0 0 3.5em;
 			position: relative;
 			vertical-align: top;
-/*			width: 48%;*/
-			width: 100%;
+			width: 48%;
+			/*width: 100%;*/
 		}
 
 			ul.feature-icons li:before {
@@ -2431,36 +2431,6 @@ input, select, textarea {
 				width: 2.5em;
 			}
 
-			ul.feature-icons li.fa-code:before {
-				background: #D72638;
-			}
-
-			ul.feature-icons li.fa-gamepad:before {
-				background: #E8871E;
-			}
-
-			ul.feature-icons li.fa-bolt:before {
-				background: #98CE00;
-			}
-
-			ul.feature-icons li.fa-users:before {
-				background: #05B2DC;
-			}
-
-			ul.feature-icons > li > ul {
-				list-style-type: disc;
-			    padding-left: 20px;
-			    display: block;
-			    width: auto;
-			}
-
-			ul.feature-icons > li > ul > li {
-				display: list-item;
-			    margin: 0 0;
-			    position: relative;
-			    padding-left: 0.35em;
-			    width: auto;
-			}
 
 /* Icons */
 
@@ -2470,18 +2440,78 @@ input, select, textarea {
 		padding-left: 0;
 	}
 
-		ul.icons li {
-			display: inline-block;
-			padding: 0 1em 0 0;
+	ul.icons li {
+		display: inline-block;
+		padding: 0 1em 0 0;
+	}
+
+	ul.icons li:last-child {
+		padding-right: 0 !important;
+	}
+
+	ul.icons li .icon:before {
+		font-size: 1.25em;
+	}
+
+/* Dev Icons */
+	.devicon-list {
+		display: inline-flex;
+		flex-wrap: wrap;
+		list-style-type: none;
+		margin-top: 1em;
+	    padding-left: 0em;
+	    width: 100%;
+	}
+
+	.devicon-list-item {
+		padding: 0px 0px 0px 0px;
+		margin-bottom: 1em;
+		text-align: center;
+		width: 16.66%;
+	}
+
+		.devicon-list-item p:before {
+		    content: '';
+		    position: absolute;
+		    background: #252422;
+		    width: 50px;
+		    height: 1px;
+		    top: 0;
+		    left: 50%;
+		    margin: 0 0 0 -25px;
+		    -webkit-transition: margin-top 0.2s;
+		    -moz-transition: margin-top 0.2s;
+		    transition: margin-top 0.2s;
 		}
 
-			ul.icons li:last-child {
-				padding-right: 0 !important;
-			}
+		.devicon-list-item p {
+			position: relative;
+			display: block;
+			padding-top: 10px;
+		    margin-block-start: 1em;
+		    margin-block-end: 1em;
+		    font-size: 80%;
+		}
 
-			ul.icons li .icon:before {
-				font-size: 1.25em;
-			}
+	.devicon {
+		font-size: 3em;
+		margin-bottom: 2em;
+	}
+
+	.fa-icon {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		text-decoration: none;
+	    border-bottom: none;
+	    position: relative;
+		font-style: normal;
+		font-variant: normal;
+		text-rendering: auto;
+		line-height: 1;
+		text-transform: none !important;
+		font-family: 'Font Awesome 5 Free';
+		font-weight: 900;
+	}
 
 /* Table */
 
