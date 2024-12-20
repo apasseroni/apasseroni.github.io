@@ -157,28 +157,52 @@
 		});
 
 	// Magnific Popup
-		$(document).ready(function() {
-		    $('.open-gallery').each(function() {
-		        var galleryID = $(this).data('gallery');
-		        var galleryItems = $(galleryID).find('a').map(function() {
-		        	var type = $(this).data('type') || 'image'; // Default to image if type is not specified
-		            return {
-		                src: $(this).attr('href'),
-		                type: type,
-		                title: $(this).attr('title') || ''
-		            };
-		        }).get();
+	$(document).ready(function () {
+		$('.open-gallery').each(function () {
+			var galleryID = $(this).data('gallery');
+			// Extract gallery items
+			var galleryItems = $(galleryID).find('a, .video-container').map(function () {
+				var type = $(this).data('type') || 'image'; // Default to image if type is not specified
+				return {
+					src: $(this).hasClass('video-container')
+					? $(this) // Use the inline element directly
+					: $(this).attr('href'),
+					type: type,
+					title: $(this).attr('title') || ''
+				};
+			}).get();
 
-		        $(this).magnificPopup({
-		            items: galleryItems,
-		            type: 'image',
-		            gallery: {
-		                enabled: true
-		            },
-		            image: {
-		                titleSrc: 'title'
-		            }
-		        });
-		    });
+			// Initialize Magnific Popup
+			$(this).magnificPopup({
+				items: galleryItems,
+				gallery: {
+					enabled: true
+				},
+				type: 'image', // Default type
+				image: {
+					titleSrc: 'title'
+				},
+				callbacks: {
+					open: function () {
+						// Play video if opened
+						const videoElement = document.querySelector('#autobrawl-video');
+						
+						if (videoElement) {
+							videoElement.volume = 0.5;
+							videoElement.muted = true;
+							videoElement.play();
+						}
+					},
+					close: function () {
+						// Pause video when closed
+						const videoElement = document.querySelector('#autobrawl-video');
+
+						if (videoElement) {
+							videoElement.pause();
+						}
+					}
+				}
+			});
 		});
+	});
 })(jQuery);

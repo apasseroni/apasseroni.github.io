@@ -3448,3 +3448,21 @@ input, select, textarea {
 			}
 
 	}
+
+/* Magnific Popup */
+div.mfp-content {
+    text-align: center;
+    width: auto !important;
+    max-width: 90%;
+	max-height: 90%;
+}
+
+.mfp-image-holder .mfp-content {
+    max-width: 90%;
+	max-height: 90%;
+}
+
+.video-container video {
+    max-width: 90%;
+    max-height: 90%;
+}
